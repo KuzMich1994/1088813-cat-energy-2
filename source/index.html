@@ -2,13 +2,173 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Название проекта</title>
+    <title>CAT ENERGY</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
-    <header class="header">Шапка</header>
-    <p>Привет мир!!!</p>
+    <header class="header">
+      <a href="#">
+        LOGO
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__container">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--current" href="index.html">главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="catalog.html">каталог продукции</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="promo">
+        <div class="promo__container">
+          <h1 class="promo__title">Функциональное питание для котов</h1>
+          <p class="promo__slogan">Занялся собой? Займись котом!</p>
+          <img class="promo__highlight-image" src="#" width="280" height="270" alt="CAT ENERGY PRO (курица)">
+          <button class="promo_button button button--primary" type="button">Подобрать программу</button>
+        </div>
+        <div class="promo__background">
+          <img class="promo__background-image" width="320" height="302" src="#" alt="Облизывающийся кот">
+        </div>
+      </section>
+      <section class="suggestions">
+        <div class="suggestions__container">
+          <ul class="suggestions__list">
+            <li class="suggestions__item suggestion background-container">
+              <div class="suggestion__container">
+                <h2 class="suggestion__title">похудение</h2>
+                <p class="suggestion__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+                <a class="suggestion__button link link--with-arrow" href="#">каталог slim</a>
+              </div>
+              <img class="suggestion__image" width="50" height="53" src="#" alt="Похудение">
+            </li>
+            <li class="suggestions__item suggestion background-container">
+              <div class="suggestion__container">
+                <h2 class="suggestion__title">набор массы</h2>
+                <p class="suggestion__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+                <a class="suggestion__button link link--with-arrow" href="#">каталог pro</a>
+              </div>
+              <img class="suggestion__image" width="50" height="53" src="#" alt="набор массы">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div class="how-it-works__container">
+          <h2 class="how-it-works__title">Как это работает</h2>
+          <ol class="how-it-works__list">
+            <li class="how-it-works__item">
+              <div class="how-it-works__icon-container">
+                <svg class="how-it-works__icon" width="30" height="32"></svg>
+              </div>
+              <p class="how-it-works__description">Функциональное питание <br>
+                содержит только полезные <br>
+                питательные вещества.</p>
+              <strong class="how-it-works__number">1</strong>
+            </li>
+            <li class="how-it-works__item">
+              <div class="how-it-works__icon-container">
+                <svg class="how-it-works__icon" width="30" height="32"></svg>
+              </div>
+              <p class="how-it-works__description">Выпускается в виде порошка,<br>
+                который нужно лишь залить <br>
+                кипятком и готово.
+              </p>
+              <strong class="how-it-works__number">2</strong>
+            </li>
+            <li class="how-it-works__item">
+              <div class="how-it-works__icon-container">
+                <svg class="how-it-works__icon" width="30" height="32"></svg>
+              </div>
+              <p class="how-it-works__description">Замените один-два приема br
+                обычной еды на наше <br>
+                функциональное питание.
+              </p>
+              <strong class="how-it-works__number">3</strong>
+            </li>
+            <li class="how-it-works__item">
+              <div class="how-it-works__icon-container">
+                <svg class="how-it-works__icon" width="30" height="32"></svg>
+              </div>
+              <p class="how-it-works__description">Уже через месяц наслаждайтесь <br>
+                изменениями к лучшему <br>
+                вашего питомца!</p>
+              <strong class="how-it-works__number">4</strong>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="example">
+        <div class="example__container">
+          <h2 class="example__title">Живой пример</h2>
+          <p class="example__description">
+            Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+          </p>
+          <div class="example__stats">
+            <div class="example__stat">
+              <span class="example__stat-value">5 кг</span>
+              <span class="example__stat-label">снижение веса</span>
+            </div>
+            <div class="example__stat">
+              <span class="example__stat-value">60 дней</span>
+              <span class="example__stat-label">затрачено времени</span>
+            </div>
+          </div>
+          <div class="example__cost">Затраты на питание: <span class="example__cost-value">15 000 руб.</span></div>
+        </div>
+        <div class="example__background">
+          <div class="example__image-container">
+            <img class="example__image example__image--before" width="560" height="512" src="#" alt="До">
+            <img class="example__image example__image--after" width="560" height="512" src="#" alt="После">
+            <div class="example__slider"></div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__map"></div>
+        <div class="contacts__container">
+          <h2 class="contacts__title">приглашаем
+            к сотрудничеству
+            дилеров!</h2>
+          <div class="contacts__address">
+            <p class="contacts__address-street">ул. Большая
+              Конюшенная, д. 19/8</p>
+            <p class="contacts__address-city">Санкт-Петербург</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <a class="footer__logo" href="#">
+          <img class="footer__logo-image" width="128" height="24" src="#" alt="CAT ENERGY">
+        </a>
+        <ul class="footer__social social">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="#">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="#">Мы в Телеграме</a>
+          </li>
+        </ul>
+        <a class="footer__copyright copyright" href="https://htmlacademy.ru/intensive/adaptive">
+          <b class="copyright__text">HTML Academy</b>
+          <svg class="copyright__logo" width="27" height="34"></svg>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
